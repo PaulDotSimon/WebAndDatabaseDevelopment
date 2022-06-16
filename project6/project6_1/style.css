@@ -1,0 +1,16 @@
+body{
+    margin-right: 900px;
+}
+
+div{
+    border: 1px dotted rgb(161, 135, 173);
+    
+}
+
+#node1{
+    background-color: rgb(161, 135, 173);
+}
+
+#tree>div:first-child{
+    background-color: rgb(161, 135, 173);
+}

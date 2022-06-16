@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Raleway&display=swap"
+        rel="stylesheet">
+    <title>Лабораторная работа 9</title>
+</head>
+
+<body>
+    <h1>Получение визы</h1>
+    <div class="container">
+        <form name="ticket" class="form-ticket">
+            <h2>Заказ билета</h2>
+            <div class="field">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="field">
+
+                <label for="surname">Фамилия</label>
+                <input type="text" name="surname" id="surname"></div>
+            <div class="field">
+                <label for="gender">Пол</label>
+                <select name="gender" id="gender">
+                    <option>М</option>
+                    <option>Ж</option>
+                    <option>Другое</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="passport">Серия и номер паспорта</label>
+                <input type="text" name="passport" id="passport">
+            </div>
+            <div class="field">
+                <label for="flight">Номер рейса</label>
+                <select name="flight" id="flight">
+                    <option>SU 5641</option>
+                    <option>SU 5141</option>
+                    <option>BU 6121</option>
+                    <option>BA 6627</option>
+                    <option>SA 6547</option>
+                    <option>SA 6541</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="place">Место</label>
+                <input type="number" name="place" id="place">
+            </div>
+            <div class="field">
+                <label></label>
+                <button type="submit" name="button" id="buttonTicket">Заказать</button>
+            </div>
+        </form>
+
+        <form name="hotel" class="form-hotel">
+            <h2>Заказ отеля</h2>
+            <div class="field">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="field">
+                <label for="surname">Фамилия</label>
+                <input type="text" name="surname" id="surname">
+            </div>
+            <div class="field">
+                <label for="gender">Пол</label>
+                <select name="gender" id="gender">
+                    <option>М</option>
+                    <option>Ж</option>
+                    <option>Другое</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="passport">Серия и номер паспорта</label>
+                <input type="text" name="passport" id="passport">
+            </div>
+            <div class="field">
+                <label for="room">Номер комнаты</label>
+                <input type="number" name="room" id="room">
+            </div>
+            <div class="field">
+                <label></label>
+                <button type="submit" name="button" id="buttonHotel">Заказать</button>
+            </div>
+        </form>
+
+        <form name="visa" class="form-visa">
+            <h2>Получение ВИЗЫ</h2>
+            <div class="visa-ticket">
+                <h3>Билет</h3>
+                <div class="field">
+                    <label for="name">Имя</label>
+                    <input type="text" name="nameTicket" id="name" disabled>
+                </div>
+                <div class="field">
+                    <label for="surname">Фамилия</label>
+                    <input type="text" name="surnameTicket" id="surname" disabled>
+                </div>
+                <div class="field">
+                    <label for="gender">Пол</label>
+                    <input type="text" name="genderTicket" id="gender" disabled>
+                </div>
+                <div class="field">
+                    <label for="passport">Серия и номер паспорта</label>
+                    <input type="text" name="passportTicket" id="passport" disabled>
+                </div>
+                <div class="field">
+                    <label for="flight">Номер рейса</label>
+                    <input type="text" name="flightTicket" id="flight" disabled>
+                </div>
+                <div class="field">
+                    <label for="place">Место</label>
+                    <input type="text" name="placeTicket" id="place" disabled>
+                </div>
+            </div>
+            <div class="visa-hotel">
+                <h3>Отель</h3>
+                <div class="field">
+                    <label for="name">Имя</label>
+                    <input type="text" name="nameHotel" id="name" disabled>
+                </div>
+                <div class="field">
+                    <label for="surname">Фамилия</label>
+                    <input type="text" name="surnameHotel" id="surname" disabled>
+                </div>
+                <div class="field">
+                    <label for="gender">Пол</label>
+                    <input type="text" name="genderHotel" id="gender" disabled>
+                </div>
+                <div class="field">
+                    <label for="passport">Серия и номер паспорта</label>
+                    <input type="text" name="passportHotel" id="passport" disabled>
+                </div>
+                <div class="field">
+                    <label for="room">Номер комнаты</label>
+                    <input type="number" name="roomHotel" id="room" disabled>
+                </div>
+            </div>
+            <div class="field button">
+                <button type="submit" name="button" id="buttonVisa">Получить ВИЗУ</button>
+            </div>
+    </div>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to top, #292929 0%, black 100%);
+}
+
+/* h1,
+h2,
+h3 {
+
+    font-family: 'Oswald', sans-serif;
+} */
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    letter-spacing: 10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    padding: 10px 30px;
+}
+
+.form-visa {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-visa h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+button:hover {
+    background-color: brown;
+}
+
+.form-visa .button {
+    margin: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+form label {
+    margin: 10px 0;
+    display: block;
+    float: left;
+    width: 250px;
+}
+
+input,
+select {
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.form-visa input,
+.form-visa select {
+    color: white;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}

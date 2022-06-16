@@ -1,0 +1,16 @@
+#game {
+width: 900px;
+display: flex;
+flex-wrap: wrap;
+}
+
+#game img {
+width: 300px ;
+height: 300px;
+}  
+
+#pScoreBoard{
+    height: 30px;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
